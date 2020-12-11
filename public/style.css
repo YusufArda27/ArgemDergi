@@ -29,9 +29,17 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+.dropdown-content{
+  display:none;
+  transition: display 200ms;
+}
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   color: #D4CECC;
   background-color: #E56E4E;
+}
+
+li:hover .dropdown-content {
+  display:block;
+
 }
