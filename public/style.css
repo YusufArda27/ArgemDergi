@@ -1,63 +1,37 @@
-body {
-  background-color: #E9E5DD;
-  color: #E9E5DD;
-  margin: 0;
-  padding: 0;
-}
-
 :root{
   font-family: 'Open Sans';
   font-size: 16px;
-  --text-primary: #E9E5DD;
-  --text-secondary: #ececec;
-}
-.navbar {
-  position: fixed;
-  background-color: #D04925;
-  width: 5rem;
-  height: 100vh;
-  transition: width 600ms ease;
-}
-.nav-item {
-  width: 100%;
-}
-.nav-item:last-child {
-  margin-top: auto;
+  --background-color-light: #E9E5DD;
+  --background-: #ececec;
 }
 
-
-.link-text {
-  display: none;
-  margin-left: 1rem;
+body{
+  background-color: #E9E5DD
 }
+ul {
 
-.nav-link {
-  display: flex;
-  align-items: center;
-  height: 5rem;
-  color: var(--text-primary);
-  text-decoration: none;
-  filter: grayscale(100%) opacity(0.7);
-  transition: var(--transition-speed);
-}
-
-.nav-link:hover {
-  filter: grayscale(0%) opacity(1);
-  background: var(--bg-secondary);
-  color: var(--text-secondary);
-}
-.navbar-nav{
-  list-style: none;
-  padding: 0;
+  list-style-type: none;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D04925;
 }
-.navbar:hover{
-  width: 16rem;
+
+li {
+  float: left;
+  color:white
 }
-.navbar:hover .link-text {
-  display:block;
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: #D4CECC;
+  background-color: #E56E4E;
 }
