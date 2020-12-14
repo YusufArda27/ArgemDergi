@@ -45,7 +45,10 @@ li:hover .dropdown-content {
 }
 @media only screen and (max-width: 600px) {
   body{
-    font-size: 12px;
+    font-size: 10px;
   }
-  
+  li a{
+    padding: 14px 5px;
+  }
+ 
 }
