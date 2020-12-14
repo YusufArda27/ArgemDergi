@@ -34,4 +34,10 @@ function GetWriting()
    topic= snapshot.val().YazıKonusu;
    text= snapshot.val().Yazı;
 });
+  return {
+    YazıAdı:name,
+    YazarAdı:Writer,
+    Yazı:text,
+    YazıKonusu:topic,
+  };
 }
