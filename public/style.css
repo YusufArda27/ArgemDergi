@@ -43,3 +43,9 @@ li:hover .dropdown-content {
   display:block;
 
 }
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: 12px;
+  }
+  
+}
