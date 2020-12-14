@@ -12,15 +12,7 @@ firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 //Base Variables
 const Database=firebase.database;
-//Base Functions
-function GetData(DataName){
-  return firebase.database().once(DataName);
-}
-function SendData(DataName,DataToSend){
-  Database.set({
-    DataName:DataToSend
+
+Database.set({
+  Nejat:"SuperZeka"
 });
-
-
-SendData("Nejat","SüperZeka");
-console.log(GetData("Nejat"));
