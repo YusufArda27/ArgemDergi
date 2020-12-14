@@ -19,6 +19,8 @@ ul {
 
 li {
   float: left;
+  width:auto;
+  height: auto;
   color:white
 }
 
@@ -50,5 +52,5 @@ li:hover .dropdown-content {
   li a{
     padding: 14px 5px;
   }
- 
+
 }

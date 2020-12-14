@@ -12,7 +12,13 @@ firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 //Base Variables
 const Database=firebase.database;
-
-Database.set({
-  Nejat:"SuperZeka"
-});
+//Base Functions
+function AddTextToDataBase(WritingName,WritersName,Writing,Topic,WritingCodename){
+  let DatabasePort=Database().ref("/"+WritingCodename);
+  DatabasePort.set({
+    Yazar:WritersName,
+    YazıAdı:WritingName,
+    Yazı:Writing,
+    YazıKoonusu:Topic,
+  });
+}
