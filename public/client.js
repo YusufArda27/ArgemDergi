@@ -19,6 +19,19 @@ function AddTextToDataBase(WritingName,WritersName,Writing,Topic,WritingCodename
     Yazar:WritersName,
     YazıAdı:WritingName,
     Yazı:Writing,
-    YazıKoonusu:Topic,
+    YazıKonusu:Topic,
   });
+}
+function GetWriting()
+{
+  var name;
+  var text;
+  var topic;
+  var Writer;
+  Database().ref("/"+"Ncode").on("value", function(snapshot) {
+   Writer= snapshot.val().Yazar;
+   name= snapshot.val().YazıAdı;
+   topic= snapshot.val().YazıKonusu;
+   text= snapshot.val().Yazı;
+});
 }
