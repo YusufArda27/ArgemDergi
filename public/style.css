@@ -3,11 +3,111 @@
   font-size: 16px;
   --background-color-light: #E9E5DD;
   --background-: #ececec;
+  --transition-speed: 600ms;
 }
 
 body{
   background-color: #E9E5DD
 }
+
+.navbar {
+  height: auto;
+  width: 7.2rem;
+  position: fixed;
+  display:none;
+  transition: display 200ms;
+  overflow: hidden;
+  background-color: #D04925;
+  transition: height 600ms ease;
+}
+
+li:hover .navbar{
+  display: block;
+  height: auto;
+  widht: auto;
+
+
+
+}
+.navbar2 {
+  height: auto;
+  width: 6rem;
+  position: fixed;
+  display:none;
+  transition: display 200ms;
+  overflow: hidden;
+  background-color: #D04925;
+  transition: height 200ms ease;
+}
+
+li:hover .navbar2{
+  display: block;
+  height: auto;
+  widht: auto;
+
+
+
+}
+.navbar3 {
+  height: auto;
+  width: 5.9rem;
+  position: fixed;
+  display:none;
+  transition: display 200ms;
+  overflow: hidden;
+  background-color: #D04925;
+  transition: height 200ms ease;
+}
+
+li:hover .navbar3{
+  display: block;
+  height: auto;
+  widht: auto;
+
+
+
+}
+.navbar4 {
+  height: auto;
+  width: 7rem;
+  position: fixed;
+  display:none;
+  transition: display 200ms;
+  overflow: hidden;
+  background-color: #D04925;
+  transition: height 200ms ease;
+}
+
+li:hover .navbar4{
+  display: block;
+  height: auto;
+  widht: auto;
+
+
+
+}
+.navbar5 {
+  height: auto;
+  width: 6.9rem;
+  position: fixed;
+  display:none;
+  transition: display 200ms;
+  overflow: hidden;
+  background-color: #D04925;
+  transition: height 200ms ease;
+}
+
+li:hover .navbar5{
+  display: block;
+  height: auto;
+  widht: auto;
+
+
+
+}
+
+
+
 ul {
 
   list-style-type: none;
@@ -16,6 +116,7 @@ ul {
   overflow: hidden;
   background-color: #D04925;
 }
+
 
 li {
   float: left;
@@ -29,16 +130,19 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+/*
 .dropdown-content{
   display:none;
   transition: display 200ms;
 }
-/* Change the link color to #111 (black) on hover */
+*/
+
 li a:hover {
   color: #D4CECC;
   background-color: #E56E4E;
 }
 
+/*
 li:hover .dropdown-content {
   display:block;
 
