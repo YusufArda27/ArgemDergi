@@ -62,7 +62,7 @@ li:hover .navbar2{
 li:hover .navbar3{
   display: block;
   height: auto;
-  widht: auto;
+  width: auto;
 
 
 
@@ -81,7 +81,7 @@ li:hover .navbar3{
 li:hover .navbar4{
   display: block;
   height: auto;
-  widht: auto;
+  width: auto;
 
 
 
@@ -100,7 +100,7 @@ li:hover .navbar4{
 li:hover .navbar5{
   display: block;
   height: auto;
-  widht: auto;
+  width: auto;
 
 
 
@@ -147,3 +147,4 @@ li:hover .dropdown-content {
   display:block;
 
 }
+*/
